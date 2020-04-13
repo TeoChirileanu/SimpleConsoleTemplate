@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+	<OutputType>Exe</OutputType>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	<Nullable>enable</Nullable>
+	
+	<OutputPath>binaries</OutputPath>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	
+	<PublishDir>$(OutputPath)\publish</PublishDir>
+	<PublishSingleFile>true</PublishSingleFile>
+	<PublishTrimmed>true</PublishTrimmed>
+	<AppendTargetFrameworkToPublishDir>false</AppendTargetFrameworkToPublishDir>
+	<AppendRuntimeIdentifierToPublishDir>false</AppendRuntimeIdentifierToPublishDir>
+	
+	<PackageOutputPath>$(OutputPath)\nuget</PackageOutputPath>
+	
+  </PropertyGroup>
+
+</Project>

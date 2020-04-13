@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Teodor",
+  "classifications": [ "Common", "Console", "OneLiner" ],
+  "identity": "CleanFtw.Console",
+  "name": "Simple Clean Console",
+  "shortName": "simpleconsole",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
